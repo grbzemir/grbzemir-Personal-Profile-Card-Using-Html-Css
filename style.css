@@ -1,0 +1,99 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(black.jpg);
+    background-size: cover;
+}
+
+.box
+{
+    width: 450px;
+    background: black;
+    padding: 40px;
+    text-align: center;
+    margin:  auto;
+    margin-top: 5%;
+    color: #fff;
+    font-family: sans-serif;
+    /* background: #6b5858; */
+
+}
+
+.box img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* transition: 0.5s; */
+    cursor: pointer;
+}
+
+.box img:hover
+{
+    transform: scale(1.1);
+    /* fareyi götürdüğümüzde içe doğru yaklasma olsun */
+}
+
+.box h1
+{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+
+}
+
+.box input
+{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.box h5
+{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.box p
+{
+   text-align: justify;
+}
+
+ul{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.box li
+{
+    
+    display: inline-block;
+    /* yanyana hale getiriyoruz */
+    margin: 6px;
+    list-style: none;
+
+}
+
+.box li a{
+
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover
+{
+    color: #b9b9b9;
+}
